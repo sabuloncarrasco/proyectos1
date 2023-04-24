@@ -1,0 +1,123 @@
+c:last-child {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+
+body {
+	background-image: url(fondolegal.jpg);
+	width: 100%;
+	height: 100%vh;
+	background-size: cover;
+	color: rgb(10, 12, 105);
+
+}
+
+.mensaje {
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+	padding: 6px;
+	color: red;
+
+}
+
+header {
+	width: 100%;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-between;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+header h1 {
+	margin-left: 5px;
+	align-items: center;
+	width: calc(20% - 100px);
+	font-family: montez;
+	font-size: 55px;
+}
+
+.login-box {
+	background-image: url(logogae.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+@media only screen and (min-width:360px) and (max-width:757px) {
+	form {
+		padding: 50px 20px;
+		background-color: #381b1ba6;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px
+	}
+
+	input {
+		width: calc(100% - 20px);
+		padding: 9px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px
+	}
+
+	body {
+		background-image: url(fondolegal.jpg);
+		max-width: 100%;
+		max-height: 200%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		color: white;
+
+	}
+
+}
+
+	caja {
+		margin-top:auto;
+	}
+
+	header h1 {
+		margin-left: 10px;
+		align-items: center;
+		width: calc(10% - 200px);
+		font-family: montez;
+		font-size: 80px;
+	}
+

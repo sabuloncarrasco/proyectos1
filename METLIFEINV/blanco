@@ -1,0 +1,107 @@
+h6 {
+    text-align: center;
+    padding: 12px;
+    font-size: 100px;
+    color: rgb(143, 187, 158);
+    line-height: 10px;
+}
+
+.ok {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #1e6;
+    color: #fff
+}
+
+.bad {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff
+}
+
+.blanco {
+    color: white;
+    text-align: center;
+}
+
+.gabo {
+    padding: 50px 20px;
+    background-color: #381b1ba6;
+    margin: calc(25% + 100px);
+    margin-top: 70px;
+    padding-top: 28px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+header a {
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: all ease 300ms;
+}
+
+@media only screen and (min-width:280px) and (max-width:757px) {
+    form {
+        padding: 50px 20px;
+        background-color: #381b1ba6;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 70px;
+        padding-top: 28px;
+        margin-bottom: 30px
+    }
+
+    input {
+        width: calc(100% - 20px);
+        padding: 9px;
+        margin: auto;
+        margin-top: 12px;
+        font-size: 16px
+    }
+
+    body {
+        background-image: url(fondolegal.jpg);
+        max-width: 100%;
+        max-height: 200%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+
+    }
+
+}
+
+@media only screen and (min-width:760px) and (max-width:1180px) {
+    form {
+        padding: 50px 20px;
+        background-color: #381b1ba6;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 70px;
+        padding-top: 28px;
+        margin-bottom: 30px
+    }
+
+    input {
+        width: calc(100% - 20px);
+        padding: 20px;
+        margin: auto;
+        margin-top: 12px;
+        font-size: 16px
+    }
+
+    body {
+        background-image: url(fondolegal.jpg);
+        max-width: 100%;
+        max-height: 200%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+    }
+
